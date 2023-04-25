@@ -1,0 +1,10 @@
+Blocos possíveis no terraform:
+
+* terraform = declarar versao do terraform, tipo de provider e outros atributos de config.
+* providers = setar versão do provider
+* resource = criacao de recursos. ex: lambda, s3, etc.
+* data = trazer dados de fora para dentro do código terraform
+* module = modulos que facilitam a criação de recursos
+* variable = declarar variáveis
+* output = levar dados para fora do arquivo terraform
+* locals = declarar funções usadas repetidamente no código
