@@ -1,0 +1,1 @@
+bucket_name = "sidenia-bucket-terraform"
