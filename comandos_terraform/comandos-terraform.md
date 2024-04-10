@@ -90,4 +90,15 @@ todavia esse comando só atualiza o state, mas nao adiciona as alteracoes no có
     - No terminal executa> 
         terraform init -backend-config=backend-dev.hcl
 
-# ATENÇÃO > o terraform nao aceita variáveis dentro do bloco do terraform. 
+## ATENÇÃO > o terraform nao aceita variáveis dentro do bloco do terraform.
+
+
+
+# TERRAFORM FORCE-UNLOCK
+=========================
+
+Na AWS voce precisa criar um DynamoDB para controlar o lock do terraform.
+Um lock artificial.
+
+terraform force-unlock iddostatebloqueado
+terraform force-unlock dnf29-93jfj09-k4fj90jkpokpok
